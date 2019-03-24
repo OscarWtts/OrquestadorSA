@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="ws_pedido">
+      <implementation-class>pedido.ws_pedido</implementation-class>
+    </service>
+    <service name="ws_Stock">
+      <implementation-class>stock.ws_Stock</implementation-class>
+    </service>
+    <service name="ws_fabrica">
+      <implementation-class>fabrica.ws_fabrica</implementation-class>
+    </service>
+    <service name="ws_cliente">
+      <implementation-class>cliente.ws_cliente</implementation-class>
+    </service>
+  </services>
+  <clients/>
+  <jsr109>false</jsr109>
+</jax-ws>

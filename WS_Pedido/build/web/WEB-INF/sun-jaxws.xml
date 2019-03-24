@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints version="2.0" xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime">
+  <endpoint implementation="pedido.ws_pedido" name="ws_pedido" url-pattern="/ws_pedido"/>
+  <endpoint implementation="stock.ws_Stock" name="ws_Stock" url-pattern="/ws_Stock"/>
+  <endpoint implementation="fabrica.ws_fabrica" name="ws_fabrica" url-pattern="/ws_fabrica"/>
+  <endpoint implementation="cliente.ws_cliente" name="ws_cliente" url-pattern="/ws_cliente"/>
+</endpoints>
